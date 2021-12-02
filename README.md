@@ -3,4 +3,3 @@
 <p align="center"><i>A collection of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.</i></p>
 
 This repository is my collection of solutions for the Advent of Code puzzles. I'll attempt to go back after each submission and provide a brief explanation for each.
-
