@@ -96,16 +96,22 @@ def read_file(file_path):
 if __name__ == '__main__':
     file_path = 'input.txt'
     lose_on_purpose = False
+    show_boards = False
 
     for i, arg in enumerate(sys.argv):
         if i > 0:
             if arg == "lose":
                 lose_on_purpose = True
+            elif arg == "show":
+                show_boards = True
             else:
                 file_path = arg
 
     called_nums, boards = read_file(file_path)
     winning_boards = []
+    if show_boards:
+        for i, board in enumerate(boards):
+            print(f"BOARD #{i}:\n{board}\n\n")
     for number in called_nums:
         for i, board in enumerate(boards):
             if i in set([x[0] for x in winning_boards]):
