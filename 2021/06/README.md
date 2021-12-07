@@ -1,5 +1,5 @@
 <h1 align="center">DECEMBER 6, 2021</h1>
-<p align="center">--- Day 5: Lanternfish ---</p>
+<p align="center">--- Day 6: Lanternfish ---</p>
 
 **PART ONE**
 
